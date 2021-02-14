@@ -7,7 +7,8 @@
 }
 
 body {
-   background-color: #393e46;
+   background-image: url(img/bg.jpeg);
+   background-size: cover;
    color: #222831;
    font-family: 'Poppins', sans-serif;
 }
