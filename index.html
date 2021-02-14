@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Verb Tenses</title>
    <link rel="icon" href="img/favicon.ico">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
    <link rel="stylesheet" href="style.css">
 </head>
 
@@ -32,13 +33,17 @@
             <select name="right" id="right">
                <option value="" selected>- Choose -</option>
                <option value="1">Simple</option>
-               <option value="2">Continous</option>
+               <option value="2">Continuous</option>
                <option value="3">Perfect</option>
-               <option value="4">Perfect Continous</option>
+               <option value="4">Perfect Continuous</option>
             </select>
          </div>
          <button>Submit</button><br>
-         <textarea name="hasil" id="hasil" disabled></textarea>
+         <div class="result">
+            <p>Copied</p>
+            <i class="far fa-clone" onclick="return copyText(result)"></i>
+            <textarea name="result" id="result" disabled></textarea>
+         </div>
       </main>
 
 

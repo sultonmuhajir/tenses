@@ -69,6 +69,37 @@ main button {
    outline: none;
 }
 
+main .result {
+   position: relative;
+}
+
+main .result p {
+   position: absolute;
+   top: -.3rem;
+   right: 0;
+   background-color: #222831;
+   color: #eee;
+   padding: .2rem .7rem;
+   border-radius: 3px;
+   font-size: .65rem;
+   display: none;
+}
+
+main .result i {
+   position: absolute;
+   top: 1.6rem;
+   right: .4rem;
+   transform: rotate(180deg);
+   font-size: .8rem;
+   opacity: .6;
+   cursor: pointer;
+   display: none;
+}
+
+main .result i:hover {
+   opacity: 1;
+}
+
 main textarea {
    margin-top: 20px;
    width: 100%;
