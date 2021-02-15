@@ -75,7 +75,7 @@ main .result {
 
 main .result p {
    position: absolute;
-   top: -.3rem;
+   top: -1.6rem;
    right: 0;
    background-color: #222831;
    color: #eee;
@@ -87,7 +87,7 @@ main .result p {
 
 main .result i {
    position: absolute;
-   top: 1.6rem;
+   top: .4rem;
    right: .4rem;
    transform: rotate(180deg);
    font-size: .8rem;
@@ -100,11 +100,17 @@ main .result i:hover {
    opacity: 1;
 }
 
-main textarea {
+main .text {
    margin-top: 20px;
    width: 100%;
    height: 15rem;
    padding: 5px;
+   background-color: #F3F3F3;
+   border: 1px solid #CFCFCF;
+   font-family: monospace;
+   color: #545454;
+   letter-spacing: .2px;
+   text-align: start;
 }
 
 
