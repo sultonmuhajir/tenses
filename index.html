@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="theme-color" content="#1e2022" />
+      <title>Verb Tenses</title>
+      <link rel="icon" href="assets/img/favicon.ico" />
+      <!-- <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      /> -->
+      <link rel="stylesheet" href="assets/style.css" />
+   </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Verb Tenses</title>
-   <link rel="icon" href="assets/img/favicon.ico">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-   <link rel="stylesheet" href="assets/style.css">
-</head>
+   <body>
+      <div class="container">
+         <!-- Header -->
+         <header>
+            <h2>Verb Tenses</h2>
+         </header>
 
-<body>
-   <div class="container">
+         <!-- Main -->
+         <main>
+            <div class="tenses">
+               <select name="left" id="left">
+                  <option value="" selected>- Choose -</option>
+                  <option value="1">Present</option>
+                  <option value="2">Past</option>
+                  <option value="3">Future</option>
+                  <option value="4">Past Future</option>
+               </select>
+               <select name="right" id="right">
+                  <option value="" selected>- Choose -</option>
+                  <option value="1">Simple</option>
+                  <option value="2">Continuous</option>
+                  <option value="3">Perfect</option>
+                  <option value="4">Perfect Continuous</option>
+               </select>
+            </div>
+            <button>Submit</button><br />
+            <div class="result">
+               <!-- <i class="fa-solid fa-circle-info"></i> -->
+               <div class="text" id="text"></div>
+            </div>
+         </main>
 
-      <!-- Header -->
-      <header>
-         <h2>Verb Tenses</h2>
-      </header>
+         <!-- Footer -->
+         <footer>
+            <p>&copy All Rights Reserved by Mhjr</p>
+         </footer>
+      </div>
 
-
-      <!-- Main -->
-      <main>
-         <div class="tenses">
-            <select name="left" id="left">
-               <option value="" selected>- Choose -</option>
-               <option value="1">Present</option>
-               <option value="2">Past</option>
-               <option value="3">Future</option>
-               <option value="4">Past Future</option>
-            </select>
-            <select name="right" id="right">
-               <option value="" selected>- Choose -</option>
-               <option value="1">Simple</option>
-               <option value="2">Continuous</option>
-               <option value="3">Perfect</option>
-               <option value="4">Perfect Continuous</option>
-            </select>
-         </div>
-         <button>Submit</button><br>
-         <div class="result">
-            <p>Copied</p>
-            <i class="far fa-clone" onclick="return copyText(text)"></i>
-            <div class="text" id="text"></div>
-         </div>
-      </main>
-
-
-      <!-- Footer -->
-      <footer>
-         <p>&copy All Rights Reserved by Mhjr</p>
-      </footer>
-   </div>
-
-   <script src="assets/script.js"></script>
-</body>
-
+      <script src="assets/script.js"></script>
+   </body>
 </html>

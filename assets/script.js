@@ -1,18 +1,15 @@
 const button = document.querySelector("button");
-const copy = document.querySelector("i");
-const copied = document.querySelector("main p");
 const text = document.querySelector(".text");
 const left = document.getElementById("left");
 const right = document.getElementById("right");
-
+// const info = document.querySelector("i");
 
 button.addEventListener("click", function () {
-   copy.style.display = "block";
+   // info.style.display = "block";
    if (left.value == "" || right.value == "") {
       text.innerHTML = "Invalid";
-      copy.style.display = "none";
+      // info.style.display = "none";
    }
-
 
    // Present
    else if (left.value == "1" && right.value == "1") {
@@ -29,7 +26,6 @@ button.addEventListener("click", function () {
          "PRESENT PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Have/Has + Been + V.ing<br>(-) S + Have/Has + Not + Been + V.ing<br>(?) Have/Has + S + Been + V.ing ?<br><br>Contoh :<br>(+) I have been singing a song<br>(-) I have not been singing a song<br>(?) Have i been singing a song ?";
    }
 
-
    // Past
    else if (left.value == "2" && right.value == "1") {
       text.innerHTML =
@@ -44,7 +40,6 @@ button.addEventListener("click", function () {
       text.innerHTML =
          "PAST PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Had + Been + V.ing<br>(-) S + Had + Not + Been + V.ing<br>(?) Had + S + Been + V.ing ? <br><br>Contoh :<br>(+) I had been singing a song<br>(-) I had not been singing a song<br>(?) Had i been singing a song ?";
    }
-
 
    // Future
    else if (left.value == "3" && right.value == "1") {
@@ -61,7 +56,6 @@ button.addEventListener("click", function () {
          "FUTURE PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Will + Have + Been + V.ing<br>(-) S + Will + Not + Have + Been + V.ing ? <br>(?) Will + S + Have + Been + V.ing<br><br>Contoh :<br>(+) I will have been singing a song<br>(-) I will not have been singing a song<br>(?) Will i have been singing a song ?";
    }
 
-
    // Past Future
    else if (left.value == "4" && right.value == "1") {
       text.innerHTML =
@@ -77,18 +71,3 @@ button.addEventListener("click", function () {
          "PAST FUTURE PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Would + Have + Been + V.ing<br>(-) S + Would + Not + Have + Been + V.ing<br>(?) Would + S + Have + Been + V.ing ?<br><br>Contoh :<br>(+) I would have been singing a song<br>(-) I would not have been singing a song<br>(?) Would i have been singing a song ?";
    }
 });
-
-
-// Copy Text
-function copyText(text) {
-   const range = document.createRange();
-   range.selectNode(text);
-   window.getSelection().removeAllRanges();
-   window.getSelection().addRange(range);
-   document.execCommand("copy");
-   window.getSelection().removeAllRanges();
-   copied.style.display = "block";
-   setTimeout(function () {
-      copied.style.display = "none"
-   }, 1000);
-}

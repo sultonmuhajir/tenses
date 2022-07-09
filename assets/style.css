@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 * {
    margin: 0;
@@ -10,7 +10,7 @@ body {
    background-image: url(img/bg.jpeg);
    background-size: cover;
    color: #222831;
-   font-family: 'Poppins', sans-serif;
+   font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -23,8 +23,6 @@ body {
    overflow: hidden;
 }
 
-
-
 /* Header */
 header {
    background-color: #00adb5;
@@ -34,8 +32,6 @@ header {
 header h2 {
    font-size: 1.7rem;
 }
-
-
 
 /* Main */
 main {
@@ -49,7 +45,7 @@ main .tenses {
 }
 
 main select {
-   font-family: 'Poppins', sans-serif;
+   font-family: "Poppins", sans-serif;
    width: 48%;
    height: 1.5rem;
    margin-bottom: 2rem;
@@ -58,14 +54,14 @@ main select {
 }
 
 main button {
-   font-family: 'Poppins', sans-serif;
-   padding: .3rem 1.2rem;
+   font-family: "Poppins", sans-serif;
+   padding: 0.3rem 1.2rem;
    cursor: pointer;
    background-color: #222831;
    border: 1px solid #222831;
    color: #eee;
    border-radius: 3px;
-   transition: .2s;
+   transition: 0.2s;
    outline: none;
 }
 
@@ -73,58 +69,34 @@ main .result {
    position: relative;
 }
 
-main .result p {
+/* main .result i {
    position: absolute;
-   top: -1.6rem;
-   right: 0;
-   background-color: #222831;
-   color: #eee;
-   padding: .2rem .7rem;
-   border-radius: 3px;
-   font-size: .65rem;
-   display: none;
-}
-
-main .result i {
-   position: absolute;
-   top: .4rem;
-   right: .4rem;
-   transform: rotate(180deg);
-   font-size: .8rem;
-   opacity: .6;
+   top: 0.5rem;
+   right: 0.5rem;
    cursor: pointer;
    display: none;
-}
-
-main .result i:hover {
-   opacity: 1;
-}
+} */
 
 main .text {
    margin-top: 20px;
    width: 100%;
    height: 15rem;
    padding: 5px;
-   background-color: #F3F3F3;
-   border: 1px solid #CFCFCF;
+   background-color: #f3f3f3;
+   border: 1px solid #cfcfcf;
    font-family: monospace;
    color: #545454;
-   letter-spacing: .2px;
+   letter-spacing: 0.2px;
    text-align: start;
 }
-
-
 
 /* Footer */
 footer {
    margin-top: 30px;
    background-color: #00adb5;
-   font-size: .8rem;
+   font-size: 0.8rem;
    padding: 10px;
 }
-
-
-
 
 /* Media Queries */
 @media (max-width: 410px) {
