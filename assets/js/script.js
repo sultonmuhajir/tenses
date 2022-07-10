@@ -6,54 +6,50 @@ const left = document.getElementById("left");
 const right = document.getElementById("right");
 // const info = document.querySelector("i");
 
+function tenses(l, r) {
+   return left.value == l && right.value == r;
+}
+
 button.addEventListener("click", function () {
-   // info.style.display = "block";
-   if (left.value == "" || right.value == "") {
-      text.innerHTML = "Invalid";
-      // info.style.display = "none";
-   }
+   text.innerHTML = tenses("1", "1")
+      ? present.simple
+      : tenses("1", "2")
+      ? present.continous
+      : tenses("1", "3")
+      ? present.perfect
+      : tenses("1", "4")
+      ? present.perfect_continous
+      : //
 
-   // Present
-   else if (left.value == "1" && right.value == "1") {
-      text.innerHTML = present.simple;
-   } else if (left.value == "1" && right.value == "2") {
-      text.innerHTML = present.continous;
-   } else if (left.value == "1" && right.value == "3") {
-      text.innerHTML = present.perfect;
-   } else if (left.value == "1" && right.value == "4") {
-      text.innerHTML = present.prefect_continous;
-   }
+      tenses("2", "1")
+      ? past.simple
+      : tenses("2", "2")
+      ? past.continous
+      : tenses("2", "3")
+      ? past.perfect
+      : tenses("2", "4")
+      ? past.perfect_continous
+      : //
 
-   // Past
-   else if (left.value == "2" && right.value == "1") {
-      text.innerHTML = past.simple;
-   } else if (left.value == "2" && right.value == "2") {
-      text.innerHTML = past.continous;
-   } else if (left.value == "2" && right.value == "3") {
-      text.innerHTML = past.perfect;
-   } else if (left.value == "2" && right.value == "4") {
-      text.innerHTML = past.prefect_continous;
-   }
+      tenses("3", "1")
+      ? future.simple
+      : tenses("3", "2")
+      ? future.continous
+      : tenses("3", "3")
+      ? future.perfect
+      : tenses("3", "4")
+      ? future.perfect_continous
+      : //
 
-   // Future
-   else if (left.value == "3" && right.value == "1") {
-      text.innerHTML = future.simple;
-   } else if (left.value == "3" && right.value == "2") {
-      text.innerHTML = future.continous;
-   } else if (left.value == "3" && right.value == "3") {
-      text.innerHTML = future.perfect;
-   } else if (left.value == "3" && right.value == "4") {
-      text.innerHTML = future.prefect_continous;
-   }
+      tenses("4", "1")
+      ? pastfuture.simple
+      : tenses("4", "2")
+      ? pastfuture.continous
+      : tenses("4", "3")
+      ? pastfuture.perfect
+      : tenses("4", "4")
+      ? pastfuture.perfect_continous
+      : "Invalid";
 
-   // Past Future
-   else if (left.value == "4" && right.value == "1") {
-      text.innerHTML = pastfuture.simple;
-   } else if (left.value == "4" && right.value == "2") {
-      text.innerHTML = pastfuture.continous;
-   } else if (left.value == "4" && right.value == "3") {
-      text.innerHTML = pastfuture.perfect;
-   } else if (left.value == "4" && right.value == "4") {
-      text.innerHTML = pastfuture.prefect_continous;
-   }
+   // info.style.display = text.innerHTML == "Invalid" ? "none" : "block";
 });

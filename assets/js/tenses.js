@@ -5,7 +5,7 @@ const present = {
       "PRESENT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + ToBe(am/are/is) + V.ing<br>(-) S + ToBe + not + V.ing<br>(?) ToBe + S + V.ing ?<br><br>Contoh :<br>(+) I am singing a song<br>(-) I am not singing a song<br>(?) Am i singing a song ?",
    perfect:
       "PRESENT PERFECT TENSE<br><br>Rumus :<br>(+) S + Have/Has + V.3<br>(-) S + Have/Has + Not + V.3<br>(?) Have/Has + S + V.3 ?<br><br>Contoh :<br>(+) I have sung a song<br>(-) I have not sung a song<br>(?) Have i sung a song ?",
-   prefect_continous:
+   perfect_continous:
       "PRESENT PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Have/Has + Been + V.ing<br>(-) S + Have/Has + Not + Been + V.ing<br>(?) Have/Has + S + Been + V.ing ?<br><br>Contoh :<br>(+) I have been singing a song<br>(-) I have not been singing a song<br>(?) Have i been singing a song ?",
 };
 
@@ -16,7 +16,7 @@ const past = {
       "PAST CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + ToBe(was/ware) + V.ing<br>(-) S + ToBe + not + V.ing<br>(?) ToBe + S + V.ing ? <br><br>Contoh :<br>(+) I was singing a song<br>(-) I was not singing a song<br>(?) Was i singing a song ?",
    perfect:
       "PAST PERFECT TENSE<br><br>Rumus :<br>(+) S + Had + V.3<br>(-) S + Had + Not + V.3<br>(?) Had + S + V.3 ? <br><br>Contoh :<br>(+) I had sung a song<br>(-) I had not sung a song<br>(?) Had i sung a song ?",
-   prefect_continous:
+   perfect_continous:
       "PAST PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Had + Been + V.ing<br>(-) S + Had + Not + Been + V.ing<br>(?) Had + S + Been + V.ing ? <br><br>Contoh :<br>(+) I had been singing a song<br>(-) I had not been singing a song<br>(?) Had i been singing a song ?",
 };
 
@@ -27,7 +27,7 @@ const future = {
       "FUTURE CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Will + Be + V.ing<br>(-) S + Will + Not + Be + V.ing<br>(?) Will + S + Be + V.ing ? <br><br>Contoh :<br>(+) I will be singing a song<br>(-) I will not be singing a song<br>(?) Will i be singing a song ?",
    perfect:
       "FUTURE PERFECT TENSE<br><br>Rumus :<br>(+) S + Will + Have + V.3<br>(-) S + Will + Not + Have + V.3<br>(?) Will + S + Have + V.3 ? <br><br>Contoh :<br>(+) I will have sung a song<br>(-) I will not have sung a song<br>(?) Will i have sung a song ?",
-   prefect_continous:
+   perfect_continous:
       "FUTURE PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Will + Have + Been + V.ing<br>(-) S + Will + Not + Have + Been + V.ing ? <br>(?) Will + S + Have + Been + V.ing<br><br>Contoh :<br>(+) I will have been singing a song<br>(-) I will not have been singing a song<br>(?) Will i have been singing a song ?",
 };
 
@@ -38,7 +38,7 @@ const pastfuture = {
       "PAST FUTURE CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Would + Be + V.ing<br>(-) S + Would + Not + Be + V.ing<br>(?) Would + S + Be + V.ing ?<br><br>Contoh :<br>(+) I would be singing a song<br>(-) I would not be singing a song<br>(?) Would i be singing a song ?",
    perfect:
       "PAST FUTURE PERFECT TENSE<br><br>Rumus :<br>(+) S + Would + Have + V.3<br>(-) S + Would + Not + Have + V.3<br>(?) Would + S + Have + V.3 ?<br><br>Contoh :<br>(+) I would have sung a song<br>(-) I would not have sung a song<br>(?) Would i have sung a song ?",
-   prefect_continous:
+   perfect_continous:
       "PAST FUTURE PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Would + Have + Been + V.ing<br>(-) S + Would + Not + Have + Been + V.ing<br>(?) Would + S + Have + Been + V.ing ?<br><br>Contoh :<br>(+) I would have been singing a song<br>(-) I would not have been singing a song<br>(?) Would i have been singing a song ?",
 };
 
