@@ -1,9 +1,3 @@
-const button = document.querySelector("button");
-const text = document.querySelector(".text");
-const left = document.getElementById("left");
-const right = document.getElementById("right");
-// const info = document.querySelector("i");
-
 const present = {
    simple:
       "SIMPLE PRESENT TENSE<br><br>Rumus :<br>(+) S + V.1<br>(-) S + Do/Does + not + V.1<br>(?) Do/Does + S + V.1 ?<br><br>Contoh :<br>(+) I sing a song<br>(-) I do not sing a song<br>(?) Do I sing a song ?",
@@ -48,54 +42,4 @@ const pastfuture = {
       "PAST FUTURE PERFECT CONTINUOUS TENSE<br><br>Rumus :<br>(+) S + Would + Have + Been + V.ing<br>(-) S + Would + Not + Have + Been + V.ing<br>(?) Would + S + Have + Been + V.ing ?<br><br>Contoh :<br>(+) I would have been singing a song<br>(-) I would not have been singing a song<br>(?) Would i have been singing a song ?",
 };
 
-button.addEventListener("click", function () {
-   // info.style.display = "block";
-   if (left.value == "" || right.value == "") {
-      text.innerHTML = "Invalid";
-      // info.style.display = "none";
-   }
-
-   // Present
-   else if (left.value == "1" && right.value == "1") {
-      text.innerHTML = present.simple;
-   } else if (left.value == "1" && right.value == "2") {
-      text.innerHTML = present.continous;
-   } else if (left.value == "1" && right.value == "3") {
-      text.innerHTML = present.perfect;
-   } else if (left.value == "1" && right.value == "4") {
-      text.innerHTML = present.prefect_continous;
-   }
-
-   // Past
-   else if (left.value == "2" && right.value == "1") {
-      text.innerHTML = past.simple;
-   } else if (left.value == "2" && right.value == "2") {
-      text.innerHTML = past.continous;
-   } else if (left.value == "2" && right.value == "3") {
-      text.innerHTML = past.perfect;
-   } else if (left.value == "2" && right.value == "4") {
-      text.innerHTML = past.prefect_continous;
-   }
-
-   // Future
-   else if (left.value == "3" && right.value == "1") {
-      text.innerHTML = future.simple;
-   } else if (left.value == "3" && right.value == "2") {
-      text.innerHTML = future.continous;
-   } else if (left.value == "3" && right.value == "3") {
-      text.innerHTML = future.perfect;
-   } else if (left.value == "3" && right.value == "4") {
-      text.innerHTML = future.prefect_continous;
-   }
-
-   // Past Future
-   else if (left.value == "4" && right.value == "1") {
-      text.innerHTML = pastfuture.simple;
-   } else if (left.value == "4" && right.value == "2") {
-      text.innerHTML = pastfuture.continous;
-   } else if (left.value == "4" && right.value == "3") {
-      text.innerHTML = pastfuture.perfect;
-   } else if (left.value == "4" && right.value == "4") {
-      text.innerHTML = pastfuture.prefect_continous;
-   }
-});
+export { present, past, future, pastfuture };
