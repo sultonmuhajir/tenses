@@ -1,0 +1,109 @@
+{
+   "title": {
+      "present": {
+         "simple": "SIMPLE PRESENT TENSE",
+         "continuous": "PRESENT CONTINUOUS TENSE",
+         "perfect": "PRESENT PERFECT TENSE",
+         "perfectcontinuous": "PRESENT PERFECT CONTINUOUS TENSE"
+      },
+      "past": {
+         "simple": "SIMPLE PAST TENSE",
+         "continuous": "PAST CONTINUOUS TENSE",
+         "perfect": "PAST PERFECT TENSE",
+         "perfectcontinuous": "PAST PERFECT CONTINUOUS TENSE"
+      },
+      "future": {
+         "simple": "SIMPLE FUTURE TENSE",
+         "continuous": "FUTURE CONTINUOUS TENSE",
+         "perfect": "FUTURE PERFECT TENSE",
+         "perfectcontinuous": "FUTURE PERFECT CONTINUOUS TENSE"
+      },
+      "pastfuture": {
+         "simple": "SIMPLE PAST FUTURE TENSE",
+         "continuous": "PAST FUTURE CONTINUOUS TENSE",
+         "perfect": "PAST FUTURE PERFECT TENSE",
+         "perfectcontinuous": "PAST FUTURE PERFECT CONTINUOUS TENSE"
+      }
+   },
+
+   "explanation": {
+      "present": {
+         "simple": "Menyatakan kejadian yang terjadi pada saat ini.",
+         "continuous": "Menyatakan kejadian yang masih berlangsung sekarang.",
+         "perfect": "Menyatakan kejadian yang telah dilakukan pada saat ini.",
+         "perfectcontinuous": "Menyatakan kejadian yang telah dimulai di masa lalu dan masih berlanjut sampai sekarang atau sudah berakhir di masa lalu."
+      },
+      "past": {
+         "simple": "Menyatakan kejadian yang terjadi di masa lalu.",
+         "continuous": "Menyatakan kejadian yang berlangsung di masa lalu.",
+         "perfect": "Menyatakan kejadian yang sudah terjadi di masa lalu.",
+         "perfectcontinuous": "Menyatakan kejadian yang telah terjadi di masa lalu dan masih berlangsung di waktu tertentu di masa lalu."
+      },
+      "future": {
+         "simple": "Menyatakan kejadian yang terjadi di masa depan.",
+         "continuous": "Menyatakan kejadian yang sedang berlangsung di masa depan.",
+         "perfect": "Menyatakan kejadian yang telah selesai di masa depan.",
+         "perfectcontinuous": "Menyatakan kejadian yang sedang berlangsung dengan rentang waktu tertentu di masa depan."
+      },
+      "pastfuture": {
+         "simple": "Menyatakan kejadian yang seharusnya terjadi di masa lalu namun tidak terjadi.",
+         "continuous": "Menyatakan kejadian yang akan dilakukan di masa lalu dan akan berlangsung hingga waktu tertentu di masa lalu.",
+         "perfect": "Menyatakan kejadian yang akan sudah dilakukan di masa lalu namun tidak terjadi.",
+         "perfectcontinuous": "Menyatakan kejadian yang akan sudah dan masih sedang dilakukan di masa lalu namun tidak terjadi."
+      }
+   },
+
+   "formula": {
+      "present": {
+         "simple": "Rumus :<br/><span>(+) S + V.1<br/>(-) S + Do/Does + not + V.1<br/>(?) Do/Does + S + V.1 ?</span>",
+         "continuous": "Rumus :<br/><span>(+) S + ToBe(am/are/is) + V.ing<br/>(-) S + ToBe + not + V.ing<br/>(?) ToBe + S + V.ing ?</span>",
+         "perfect": "Rumus :<br/><span>(+) S + Have/Has + V.3<br/>(-) S + Have/Has + Not + V.3<br/>(?) Have/Has + S + V.3 ?</span>",
+         "perfectcontinuous": "Rumus :<br/><span>(+) S + Have/Has + Been + V.ing<br/>(-) S + Have/Has + Not + Been + V.ing<br/>(?) Have/Has + S + Been + V.ing ?</span>"
+      },
+      "past": {
+         "simple": "Rumus :<br/><span>(+) S + V.2<br/>(-) S + Did + not + V.1<br/>(?) Did + S + V.1 ?</span>",
+         "continuous": "Rumus :<br/><span>(+) S + ToBe(was/ware) + V.ing<br/>(-) S + ToBe + not + V.ing<br/>(?) ToBe + S + V.ing ?</span>",
+         "perfect": "Rumus :<br/><span>(+) S + Had + V.3<br/>(-) S + Had + Not + V.3<br/>(?) Had + S + V.3 ?</span>",
+         "perfectcontinuous": "Rumus :<br/><span>(+) S + Had + Been + V.ing<br/>(-) S + Had + Not + Been + V.ing<br/>(?) Had + S + Been + V.ing ?</span>"
+      },
+      "future": {
+         "simple": "Rumus :<br/><span>(+) S + Will + V.1<br/>(-) S + Will + Not + V.1<br/>(?) Will + S + V.1 ?</span>",
+         "continuous": "Rumus :<br/><span>(+) S + Will + Be + V.ing<br/>(-) S + Will + Not + Be + V.ing<br/>(?) Will + S + Be + V.ing ?</span>",
+         "perfect": "Rumus :<br/><span>(+) S + Will + Have + V.3<br/>(-) S + Will + Not + Have + V.3<br/>(?) Will + S + Have + V.3 ?</span>",
+         "perfectcontinuous": "Rumus :<br/><span>(+) S + Will + Have + Been + V.ing<br/>(-) S + Will + Not + Have + Been + V.ing ? <br/>(?) Will + S + Have + Been + V.ing ?</span>"
+      },
+      "pastfuture": {
+         "simple": "Rumus :<br/><span>(+) S + Would + V.1<br/>(-) S + Would + Not + V.1<br/>(?) Would + S + V.1 ?</span>",
+         "continuous": "Rumus :<br/><span>(+) S + Would + Be + V.ing<br/>(-) S + Would + Not + Be + V.ing<br/>(?) Would + S + Be + V.ing ?</span>",
+         "perfect": "Rumus :<br/><span>(+) S + Would + Have + V.3<br/>(-) S + Would + Not + Have + V.3<br/>(?) Would + S + Have + V.3 ?</span>",
+         "perfectcontinuous": "Rumus :<br/><span>(+) S + Would + Have + Been + V.ing<br/>(-) S + Would + Not + Have + Been + V.ing<br/>(?) Would + S + Have + Been + V.ing ?</span>"
+      }
+   },
+
+   "example": {
+      "present": {
+         "simple": "",
+         "continuous": "",
+         "perfect": "",
+         "perfectcontinuous": ""
+      },
+      "past": {
+         "simple": "",
+         "continuous": "",
+         "perfect": "",
+         "perfectcontinuous": ""
+      },
+      "future": {
+         "simple": "",
+         "continuous": "",
+         "perfect": "",
+         "perfectcontinuous": ""
+      },
+      "pastfuture": {
+         "simple": "",
+         "continuous": "",
+         "perfect": "",
+         "perfectcontinuous": ""
+      }
+   }
+}
